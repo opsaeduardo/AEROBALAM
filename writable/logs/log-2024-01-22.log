@@ -1,0 +1,35 @@
+CRITICAL - 2024-01-22 12:02:52 --> Trying to get property 'GymId' of non-object
+in APPPATH/Controllers/Home.php on line 167.
+ 1 APPPATH/Controllers/Home.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php', 167, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 13:01:38 --> Call to undefined function App\Controllers\json_endoe()
+in APPPATH/Controllers/Home.php on line 428.
+ 1 APPPATH/Controllers/Webhook.php(181): App\Controllers\Home->actualizarPago([...], 'pi_3OaR0QBX9sCWY09W1z3w8e9m')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 13:01:54 --> Call to undefined function App\Controllers\json_endoe()
+in APPPATH/Controllers/Home.php on line 428.
+ 1 APPPATH/Controllers/Webhook.php(181): App\Controllers\Home->actualizarPago([...], 'pi_3OaR0QBX9sCWY09W1z3w8e9m')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 14:02:36 --> Call to undefined function App\Controllers\json_endoe()
+in APPPATH/Controllers/Home.php on line 428.
+ 1 APPPATH/Controllers/Webhook.php(181): App\Controllers\Home->actualizarPago([...], 'pi_3OaR0QBX9sCWY09W1z3w8e9m')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 18:06:29 --> Call to undefined function App\Controllers\json_endoe()
+in APPPATH/Controllers/Home.php on line 428.
+ 1 APPPATH/Controllers/Webhook.php(181): App\Controllers\Home->actualizarPago([...], 'pi_3OaR0QBX9sCWY09W1z3w8e9m')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

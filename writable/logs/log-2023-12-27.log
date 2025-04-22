@@ -1,0 +1,7 @@
+CRITICAL - 2023-12-27 09:11:24 --> Undefined index: HTTP_CLIENT_IP
+in APPPATH\Controllers\Home.php on line 202.
+ 1 APPPATH\Controllers\Home.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_CLIENT_IP', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\public_html_CarreraDeLasHortensiasBueno\\app\\Controllers\\Home.php', 202, [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->ip()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

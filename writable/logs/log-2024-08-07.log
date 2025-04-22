@@ -1,0 +1,592 @@
+ERROR - 2024-08-07 00:09:30 --> mysqli_sql_exception: Unknown column 'Modulo' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:09:30 --> Unknown column 'Modulo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:10:06 --> mysqli_sql_exception: Unknown column 'Modulo' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:10:06 --> Unknown column 'Modulo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:10:42 --> mysqli_sql_exception: Unknown column 'Modulo' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:10:42 --> Unknown column 'Modulo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:10 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:10 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:12 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:12 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:12 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:12 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:13 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:13 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:13 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:13 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:14 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:14 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:25 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-08-07 00:11:25 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:25 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 00:11:25 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 00:11:42 --> mysqli_sql_exception: Table 'hortensias.clientes' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 00:11:42 --> Table 'hortensias.clientes' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Clientes`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(33): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarModulos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 01:09:06 --> mysqli_sql_exception: Unknown column 'Modulo' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 01:09:06 --> Unknown column 'Modulo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Cupones`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 01:09:08 --> mysqli_sql_exception: Unknown column 'Modulo' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 01:09:08 --> Unknown column 'Modulo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Cupones`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 01:09:08 --> mysqli_sql_exception: Unknown column 'Modulo' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 01:09:08 --> Unknown column 'Modulo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Cupones`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 01:09:08 --> mysqli_sql_exception: Unknown column 'Modulo' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Status`...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Status`...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Status`...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 01:09:08 --> Unknown column 'Modulo' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Status`
+FROM `Cupones`
+WHERE `Modulo` = :Modulo:', [...], false)
+ 2 APPPATH\Models\participantes.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 01:19:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowArrayw()
+in APPPATH\Models\participantes.php on line 17.
+ 1 APPPATH\Controllers\Home.php(44): App\Models\Participantes->consultarModulos('Cupones')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->moduloCupones()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:01:00 --> mysqli_sql_exception: Table 'amifit.pasedoble' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:01:00 --> Table 'amifit.pasedoble' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasedoble`
+WHERE `Keyfob` = :Keyfob:', [...], false)
+ 2 APPPATH\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:01:26 --> mysqli_sql_exception: Table 'amifit.pasedoble' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:01:26 --> Table 'amifit.pasedoble' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasedoble`
+WHERE `KeyFob` = :KeyFob:', [...], false)
+ 2 APPPATH\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:01:28 --> mysqli_sql_exception: Table 'amifit.pasedoble' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:01:28 --> Table 'amifit.pasedoble' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasedoble`
+WHERE `KeyFob` = :KeyFob:', [...], false)
+ 2 APPPATH\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:01:28 --> mysqli_sql_exception: Table 'amifit.pasedoble' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:01:28 --> Table 'amifit.pasedoble' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasedoble`
+WHERE `KeyFob` = :KeyFob:', [...], false)
+ 2 APPPATH\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:01:29 --> mysqli_sql_exception: Table 'amifit.pasedoble' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:01:29 --> Table 'amifit.pasedoble' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasedoble`
+WHERE `KeyFob` = :KeyFob:', [...], false)
+ 2 APPPATH\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:02:43 --> mysqli_sql_exception: Table 'amifit.pasedoble' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:02:43 --> Table 'amifit.pasedoble' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasedoble`
+WHERE `KeyFob` = :KeyFob:', [...], false)
+ 2 APPPATH\Models\participantes.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:05:14 --> mysqli_sql_exception: Table 'amifit.pasedoble' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:05:14 --> Table 'amifit.pasedoble' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasedoble`
+WHERE `KeyFob` = :KeyFob:', [...], false)
+ 2 APPPATH\Models\participantes.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(100): App\Models\Participantes->validarKeyfob('keyfob123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarKeyfob()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 14:26:33 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$count
+in APPPATH\Models\participantes.php on line 54.
+ 1 APPPATH\Models\participantes.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$count', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Models\\participantes.php', 54, [...])
+ 2 APPPATH\Controllers\Home.php(110): App\Models\Participantes->verificarPaseDoble('key23')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->verificarPaseDoble()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 14:46:07 --> mysqli_sql_exception: Table 'amifit.cupones' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(120): App\Models\Participantes->validarCupones('cupon123')
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->validarCupones()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 14:46:07 --> Table 'amifit.cupones' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cupones`
+WHERE `Cupon` = :Cupon:
+AND `Status` = :Status:', [...], false)
+ 2 APPPATH\Models\participantes.php(70): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(120): App\Models\Participantes->validarCupones('cupon123')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarCupones()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,550 @@
+ERROR - 2023-12-06 20:38:48 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:38:48 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:39:21 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:39:21 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:40:55 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:40:55 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:41:16 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:41:16 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:44:36 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:44:36 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:44:48 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:44:48 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:45:53 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:45:53 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:47:34 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:47:34 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 20:57:09 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 20:57:09 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:00:12 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:00:12 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:00:15 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:00:15 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:00:40 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:00:40 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:00:42 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:00:42 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:00:53 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:00:53 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:00:53 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:00:53 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:01:04 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:01:04 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:01:06 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:01:06 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:01:07 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:01:07 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:01:08 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:01:08 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:01:09 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:01:09 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:02:29 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:02:29 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:02:42 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:02:42 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:03:50 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:03:50 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:03:53 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:03:53 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-06 21:24:25 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(91): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-06 21:24:25 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(91): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

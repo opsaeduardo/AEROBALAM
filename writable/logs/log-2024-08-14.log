@@ -1,0 +1,140 @@
+CRITICAL - 2024-08-14 13:56:12 --> Undefined variable: totalTime
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totalTime', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46, [...])
+ 2 SYSTEMPATH\Debug\Toolbar.php(513): include('D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(476): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-14 14:45:59 --> Invalid integer: 
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_OMTFcgu5Njw1Yg?t=1723664757",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_OMTFcgu5Njw1Yg?t=1723664757",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'line_items[0][price_data][unit_amount]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_OMTFcgu5Njw1Yg?t=1723664757",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_OMTFcgu5Njw1Yg?t=1723664757",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_OMTFcgu5Njw1Yg?t=1723664757",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(65): Stripe\Service\Checkout\SessionService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-14 14:46:18 --> Invalid integer: 
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PJ5seZTm8ZvZym?t=1723664779",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PJ5seZTm8ZvZym?t=1723664779",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'line_items[0][price_data][unit_amount]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PJ5seZTm8ZvZym?t=1723664779",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PJ5seZTm8ZvZym?t=1723664779",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PJ5seZTm8ZvZym?t=1723664779",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(65): Stripe\Service\Checkout\SessionService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,147 @@
+CRITICAL - 2024-08-12 13:39:15 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:39:15 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:39:16 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:39:47 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:40:07 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:40:07 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:40:07 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:40:46 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:40:47 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:40:47 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:40:55 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:41:19 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:41:21 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:41:21 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 13:41:21 --> Too few arguments to function App\Controllers\Home::validarLimiteCupones(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->validarLimiteCupones()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 14:58:41 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 160.
+ 1 APPPATH\Controllers\Home.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 160, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-12 14:59:14 --> mysqli_sql_exception: Column 'Nombre' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(109): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(173): App\Models\Participantes->agregarParticipante(Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-12 14:59:14 --> Column 'Nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `participantes` (`Nombre`, `Correo`, `Sexo`, `Telefono`, `TipoPlayera`, `Categoria`, `Cupon`, `Keyfob`, `Fecha`) VALUES (:Nombre:, :Correo:, :Sexo:, :Telefono:, :TipoPlayera:, :Categoria:, :Cupon:, :Keyfob:, :Fecha:)', [...], false)
+ 2 APPPATH\Models\participantes.php(109): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(173): App\Models\Participantes->agregarParticipante([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 19:50:06 --> Undefined index: Descuento
+in APPPATH\Controllers\Home.php on line 161.
+ 1 APPPATH\Controllers\Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Descuento', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 161, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 19:50:44 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\Home.php on line 161.
+ 1 APPPATH\Controllers\Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 161, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 20:19:06 --> Illegal string offset 'Descuento'
+in APPPATH\Controllers\Home.php on line 164.
+ 1 APPPATH\Controllers\Home.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'Descuento\'', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 164, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-12 20:20:48 --> Illegal string offset 'Descuento'
+in APPPATH\Controllers\Home.php on line 164.
+ 1 APPPATH\Controllers\Home.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'Descuento\'', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 164, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

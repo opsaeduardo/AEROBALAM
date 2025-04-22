@@ -1,0 +1,441 @@
+CRITICAL - 2024-02-13 22:15:39 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 183 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(183): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:15:56 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 183 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(183): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:16:00 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 183 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(183): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:16:30 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 183 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(183): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:22 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:25 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:35 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:47 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:51 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:52 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:52 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:17:52 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:18:21 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:18:22 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:18:22 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:18:22 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:18:22 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion('63')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:18:38 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:18:41 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:19:18 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:19:18 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:19:18 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:19:18 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:19:19 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:19:19 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:34 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:35 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:47 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:48 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:48 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:48 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:49 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:28:56 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:29:00 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:29:03 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:30:08 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:30:18 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:32:20 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:32:38 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:32:41 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:26 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:27 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:27 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:53 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:54 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:54 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:54 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:55 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:34:56 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:35:05 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:35:05 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:35:05 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:35:05 --> Too few arguments to function App\Models\Participantes::socioInformacion(), 1 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\hortensias_12Feb\app\Controllers\Home.php on line 173 and exactly 2 expected
+in APPPATH\Models\participantes.php on line 71.
+ 1 APPPATH\Controllers\Home.php(173): App\Models\Participantes->socioInformacion(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:35:11 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:35:41 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:35:58 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:36:01 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:37:23 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:37:27 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:37:54 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:49:10 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:49:13 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 22:50:18 --> Trying to get property 'GymId' of non-object
+in APPPATH\Controllers\Home.php on line 174.
+ 1 APPPATH\Controllers\Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'GymId\' of non-object', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\hortensias_12Feb\\app\\Controllers\\Home.php', 174, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->socioInformacion()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,254 @@
+ERROR - 2024-01-10 03:38:12 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(142): App\Models\Participantes->PagoEvento(Array, Array)
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-10 03:38:12 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH/Models/participantes.php(61): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(142): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 04:08:47 --> mysqli_sql_exception: Column 'CP' cannot be null in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `Cl...', 0)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Cl...')
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Cl...')
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Cl...', Array, false)
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(67): App\Models\Participantes->agregarParticipante(Array)
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-10 04:08:47 --> Column 'CP' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Clientes` (`nombre`, `apellidos`, `sexo`, `correo`, `telefono`, `gymid`, `status`, `FechaContrato`, `NoExt`, `Calle`, `Colonia`, `CP`, `Municipio`, `Estado`) VALUES (:nombre:, :apellidos:, :sexo:, :correo:, :telefono:, :gymid:, :status:, :FechaContrato:, :NoExt:, :Calle:, :Colonia:, :CP:, :Municipio:, :Estado:)', [...], false)
+ 2 APPPATH/Models/participantes.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(67): App\Models\Participantes->agregarParticipante([...])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:40:08 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:40:19 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:40:38 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:41:43 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:41:44 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:41:44 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:41:45 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:41:46 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:41:48 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:41:54 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 27.
+ 1 APPPATH/Controllers/Webhook.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 27, [...])
+ 2 SYSTEMPATH/Router/AutoRouter.php(161): include_once('/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php')
+ 3 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook', 'get')
+ 4 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook')
+ 5 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook')
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:51:51 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH/Controllers/Webhook.php on line 3.
+ 1 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook/index', 'get')
+ 2 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook/index')
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook/index')
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:53:40 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Webhook.php on line 15.
+ 1 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook/index', 'get')
+ 2 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook/index')
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook/index')
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:54:05 --> Return value of App\Controllers\webhook::index() must be of the type string, none returned
+in APPPATH/Controllers/Webhook.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\webhook->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\webhook))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:54:54 --> Return value of App\Controllers\webhook::index() must be of the type string, none returned
+in APPPATH/Controllers/Webhook.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\webhook->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\webhook))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:55:48 --> syntax error, unexpected ':', expecting ';' or ','
+in APPPATH/Controllers/Webhook.php on line 11.
+ 1 SYSTEMPATH/Router/Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Webhook/index', 'get')
+ 2 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->autoRoute('Webhook/index')
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Webhook/index')
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:56:22 --> Return value of App\Controllers\webhook::index() must be of the type string, none returned
+in APPPATH/Controllers/Webhook.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\webhook->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\webhook))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 15:57:04 --> Return value of App\Controllers\webhook::index() must be of the type string, none returned
+in APPPATH/Controllers/Webhook.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\webhook->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\webhook))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 16:07:29 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 20.
+ 1 APPPATH/Controllers/Webhook.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 16:07:30 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 20.
+ 1 APPPATH/Controllers/Webhook.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 16:07:41 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 20.
+ 1 APPPATH/Controllers/Webhook.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 16:07:44 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 20.
+ 1 APPPATH/Controllers/Webhook.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 16:07:49 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 20.
+ 1 APPPATH/Controllers/Webhook.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 21:25:44 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 20.
+ 1 APPPATH/Controllers/Webhook.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 21:33:49 --> Undefined index: HTTP_STRIPE_SIGNATURE
+in APPPATH/Controllers/Webhook.php on line 20.
+ 1 APPPATH/Controllers/Webhook.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: HTTP_STRIPE_SIGNATURE', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php', 20, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 22:39:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '100) VALUES (:100:)' at line 1 in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(61): CodeIgniter\Database\BaseBuilder->insert(100)
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Webhook.php(72): App\Models\Participantes->PagoEvento(100, Array)
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Webhook->index()
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}

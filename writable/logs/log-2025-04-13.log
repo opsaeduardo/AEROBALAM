@@ -1,0 +1,156 @@
+ERROR - 2025-04-13 14:50:11 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Controllers\Home.php(55): App\Models\Participantes->registrarReserva(Array)
+#6 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+#7 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-13 14:50:11 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Reservas` (`nombre`, `edad`, `telefono`, `correo`) VALUES (:nombre:, :edad:, :telefono:, :correo:)', [...], false)
+ 2 APPPATH\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(55): App\Models\Participantes->registrarReserva([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-13 14:50:21 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Controllers\Home.php(55): App\Models\Participantes->registrarReserva(Array)
+#6 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+#7 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-13 14:50:21 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Reservas` (`nombre`, `edad`, `telefono`, `correo`) VALUES (:nombre:, :edad:, :telefono:, :correo:)', [...], false)
+ 2 APPPATH\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(55): App\Models\Participantes->registrarReserva([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-13 14:50:37 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Controllers\Home.php(55): App\Models\Participantes->registrarReserva(Array)
+#6 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+#7 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-13 14:50:37 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Reservas` (`nombre`, `edad`, `telefono`, `correo`) VALUES (:nombre:, :edad:, :telefono:, :correo:)', [...], false)
+ 2 APPPATH\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(55): App\Models\Participantes->registrarReserva([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-13 19:53:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.Precio, DATE_FORMAT(v.Fecha, "%W %d %M") AS Fecha, v.Hora, (v.Asientos_Dispo...' at line 1 in D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT v.Id v.P...', 0)
+#1 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT v.Id v.P...')
+#2 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT v.Id v.P...')
+#3 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT v.Id v.P...', Array, false)
+#4 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Models\participantes.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Controllers\Home.php(45): App\Models\Participantes->consultarFecha('1')
+#6 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(942): App\Controllers\Home->consultarFecha()
+#7 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-13 19:53:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.Precio, DATE_FORMAT(v.Fecha, "%W %d %M") AS Fecha, v.Hora, (v.Asientos_Dispo...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT v.Id v.Precio, DATE_FORMAT(v.Fecha, "%W %d %M") AS Fecha, v.Hora, (v.Asientos_Disponibles - COUNT(r.Id)) AS Asientos_Libres
+FROM `Vuelos` `v`
+LEFT JOIN `Reservas` `r` ON `v`.`Id` = `r`.`Vuelo_Id` AND `r`.`Estado` = "Reservado"
+WHERE `v`.`Origen_Id` = :v.Origen_Id:
+AND `v`.`Estado` = :v.Estado:
+GROUP BY `v`.`Id`
+ORDER BY `v`.`Fecha` ASC, `v`.`Hora` ASC', [...], false)
+ 2 APPPATH\Models\participantes.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(45): App\Models\Participantes->consultarFecha('1')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarFecha()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-13 23:36:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('getLastReservaId', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-13 23:43:34 --> mysqli_sql_exception: Unknown column 'Status' in 'field list' in D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Pa...', 0)
+#1 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pa...')
+#2 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pa...')
+#3 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pa...', Array, false)
+#4 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Models\participantes.php(97): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Controllers\Home.php(114): App\Models\Participantes->agregarReservaPago(Array, Array)
+#6 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+#7 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-13 23:43:34 --> Unknown column 'Status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pagos` (`Total`, `ComisionPorcentaje`, `ComisionFija`, `IVA`, `MontoTotal`, `Status`, `TipoPago`, `Fecha`) VALUES (:Total:, :ComisionPorcentaje:, :ComisionFija:, :IVA:, :MontoTotal:, :Status:, :TipoPago:, :Fecha:)', [...], false)
+ 2 APPPATH\Models\participantes.php(97): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(114): App\Models\Participantes->agregarReservaPago([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-13 23:44:17 --> mysqli_sql_exception: Table 'u269039761_aero.reservapagos' doesn't exist in D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Models\participantes.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\app\Controllers\Home.php(114): App\Models\Participantes->agregarReservaPago(Array, Array)
+#6 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+#7 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMPP\htdocs\AEROBALAM\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-13 23:44:17 --> Table 'u269039761_aero.reservapagos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ReservaPagos` (`IdPago`, `IdReserva`) VALUES (:IdPago:, :IdReserva:)', [...], false)
+ 2 APPPATH\Models\participantes.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(114): App\Models\Participantes->agregarReservaPago([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-13 23:49:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(83): CodeIgniter\Model->__call('registrarPago', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registrarReserva()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

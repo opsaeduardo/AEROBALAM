@@ -1,0 +1,55 @@
+CRITICAL - 2024-09-03 12:15:07 --> Undefined index: imgBase64
+in APPPATH\Controllers\Home.php on line 472.
+ 1 APPPATH\Controllers\Home.php(472): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: imgBase64', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 472, [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->QR_Correo()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 12:15:20 --> Undefined index: imgBase64
+in APPPATH\Controllers\Home.php on line 472.
+ 1 APPPATH\Controllers\Home.php(472): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: imgBase64', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 472, [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->QR_Correo()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 12:15:57 --> Undefined index: imgBase64
+in APPPATH\Controllers\Home.php on line 472.
+ 1 APPPATH\Controllers\Home.php(472): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: imgBase64', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 472, [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->QR_Correo()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 12:16:33 --> Undefined index: imgBase64
+in APPPATH\Controllers\Home.php on line 472.
+ 1 APPPATH\Controllers\Home.php(472): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: imgBase64', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 472, [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->QR_Correo()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 12:28:25 --> mkdir(): File exists
+in APPPATH\Controllers\Home.php on line 482.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 482, [...])
+ 2 APPPATH\Controllers\Home.php(482): mkdir('./public/uploads/Hortensias2025/14', 511, true)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->QR()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 12:28:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Format\JSONFormatter.php:43
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\API\ResponseTrait.php(98): CodeIgniter\Debug\ExceptionHandler->format(Array)
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Debug\ExceptionHandler.php(81): CodeIgniter\Debug\ExceptionHandler->respond(Array, 500)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Debug\Exceptions.php(14
+【Previous Exception】
+ErrorException
+mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Programas In...', 482, Array)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(482): mkdir('./public/upload...', 511, true)
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->QR()
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,12 @@
+CRITICAL - 2023-12-04 19:47:02 --> Too few arguments to function App\Controllers\Home::calcular(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->calcular()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 19:47:36 --> Too few arguments to function App\Controllers\Home::calcular(), 0 passed in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->calcular()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

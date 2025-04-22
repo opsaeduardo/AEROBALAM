@@ -1,0 +1,118 @@
+CRITICAL - 2024-11-20 13:35:19 --> Class 'App\Controllers\Participantes' not found
+in APPPATH\Controllers\Stripe.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createPaymentLink()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-20 13:35:46 --> Class 'App\Controllers\Participantes' not found
+in APPPATH\Controllers\Stripe.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createPaymentLink()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-20 13:36:23 --> Class 'App\Controllers\Participantes' not found
+in APPPATH\Controllers\Stripe.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createPaymentLink()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-20 13:52:51 --> Class 'App\Controllers\Participantes' not found
+in APPPATH\Controllers\Stripe.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createPaymentLink()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-20 13:54:27 --> Invalid integer: 52541.99999999999
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: 52541.99999999999', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: 52541.99999999999",
+    "param": "unit_amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_NotTKrb9KCRl7L?t=1732132464",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: 52541.99999999999', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: 52541.99999999999",
+    "param": "unit_amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_NotTKrb9KCRl7L?t=1732132464",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'unit_amount')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: 52541.99999999999",
+    "param": "unit_amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_NotTKrb9KCRl7L?t=1732132464",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: 52541.99999999999",
+    "param": "unit_amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_NotTKrb9KCRl7L?t=1732132464",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: 52541.99999999999",
+    "param": "unit_amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_NotTKrb9KCRl7L?t=1732132464",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/prices', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/prices', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\PriceService.php(39): Stripe\Service\AbstractService->request('post', '/v1/prices', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(115): Stripe\Service\PriceService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createPaymentLink()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-20 23:57:23 --> Undefined property: stdClass::$score
+in APPPATH\Controllers\Home.php on line 167.
+ 1 APPPATH\Controllers\Home.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$score', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Controllers\\Home.php', 167, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-20 23:58:18 --> mysqli_sql_exception: Unknown column 'UserAgent' in 'field list' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(152): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(456): App\Models\Participantes->agregarParticipante(Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-20 23:58:18 --> Unknown column 'UserAgent' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `participantes` (`Nombre`, `Correo`, `Sexo`, `Telefono`, `TipoPlayera`, `Categoria`, `Cupon`, `Keyfob`, `Edad`, `UserAgent`, `Fecha`, `StatusPago`, `TipoPago`) VALUES (:Nombre:, :Correo:, :Sexo:, :Telefono:, :TipoPlayera:, :Categoria:, :Cupon:, :Keyfob:, :Edad:, :UserAgent:, :Fecha:, :StatusPago:, :TipoPago:)', [...], false)
+ 2 APPPATH\Models\participantes.php(152): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(456): App\Models\Participantes->agregarParticipante([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

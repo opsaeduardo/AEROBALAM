@@ -1,0 +1,88 @@
+ERROR - 2024-08-13 22:23:59 --> mysqli_sql_exception: Unknown column 'Status' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(68): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-13 22:23:59 --> Unknown column 'Status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `participantes`
+WHERE `Status` != :Status:', [...], false)
+ 2 APPPATH\Models\participantes.php(68): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-13 22:24:41 --> mysqli_sql_exception: Unknown column 'Status' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(68): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-13 22:24:41 --> Unknown column 'Status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `participantes`
+WHERE `Status` != :Status:', [...], false)
+ 2 APPPATH\Models\participantes.php(68): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-13 22:24:46 --> mysqli_sql_exception: Unknown column 'Status' in 'where clause' in D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Models\participantes.php(68): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\app\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\HortensiasActualizado\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-13 22:24:46 --> Unknown column 'Status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `participantes`
+WHERE `Status` != :Status:', [...], false)
+ 2 APPPATH\Models\participantes.php(68): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 22:33:30 --> Object of class stdClass could not be converted to int
+in APPPATH\Models\participantes.php on line 69.
+ 1 APPPATH\Models\participantes.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to int', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Models\\participantes.php', 69, [...])
+ 2 APPPATH\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 22:33:45 --> Object of class stdClass could not be converted to int
+in APPPATH\Models\participantes.php on line 69.
+ 1 APPPATH\Models\participantes.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to int', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Models\\participantes.php', 69, [...])
+ 2 APPPATH\Controllers\Home.php(93): App\Models\Participantes->verificarLimiteRegistros()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->verificarLimiteRegistros()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

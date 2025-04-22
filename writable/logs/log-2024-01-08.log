@@ -1,0 +1,497 @@
+CRITICAL - 2024-01-08 11:47:34 --> Array to string conversion
+in APPPATH\Controllers\Stripe.php on line 39.
+ 1 APPPATH\Controllers\Stripe.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\public_html_CarreraDeLasHortensiasBueno\\app\\Controllers\\Stripe.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:47:55 --> Invalid integer: 
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_KfOfgocR6rXkaK?t=1704736076",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_KfOfgocR6rXkaK?t=1704736076",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'line_items[0][price_data][unit_amount]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_KfOfgocR6rXkaK?t=1704736076",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_KfOfgocR6rXkaK?t=1704736076",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_KfOfgocR6rXkaK?t=1704736076",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(39): Stripe\Service\Checkout\SessionService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:49:03 --> Array to string conversion
+in APPPATH\Controllers\Stripe.php on line 39.
+ 1 APPPATH\Controllers\Stripe.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\public_html_CarreraDeLasHortensiasBueno\\app\\Controllers\\Stripe.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:50:52 --> Array to string conversion
+in APPPATH\Controllers\Stripe.php on line 39.
+ 1 APPPATH\Controllers\Stripe.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\public_html_CarreraDeLasHortensiasBueno\\app\\Controllers\\Stripe.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:51:01 --> Invalid integer: 
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_rqLSXN6NH0qzVB?t=1704736261",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_rqLSXN6NH0qzVB?t=1704736261",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'line_items[0][price_data][unit_amount]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_rqLSXN6NH0qzVB?t=1704736261",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_rqLSXN6NH0qzVB?t=1704736261",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_rqLSXN6NH0qzVB?t=1704736261",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(39): Stripe\Service\Checkout\SessionService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:53:36 --> Array to string conversion
+in APPPATH\Controllers\Stripe.php on line 39.
+ 1 APPPATH\Controllers\Stripe.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\public_html_CarreraDeLasHortensiasBueno\\app\\Controllers\\Stripe.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:53:43 --> Invalid integer: 
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_dVb4YpQa114UDo?t=1704736423",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_dVb4YpQa114UDo?t=1704736423",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'line_items[0][price_data][unit_amount]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_dVb4YpQa114UDo?t=1704736423",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_dVb4YpQa114UDo?t=1704736423",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_dVb4YpQa114UDo?t=1704736423",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(39): Stripe\Service\Checkout\SessionService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:55:39 --> Invalid integer: 
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wnb3sWQtIdRoIh?t=1704736539",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wnb3sWQtIdRoIh?t=1704736539",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'line_items[0][price_data][unit_amount]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wnb3sWQtIdRoIh?t=1704736539",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wnb3sWQtIdRoIh?t=1704736539",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wnb3sWQtIdRoIh?t=1704736539",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(39): Stripe\Service\Checkout\SessionService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:57:47 --> Invalid integer: 
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_37VFh34FKde3BD?t=1704736668",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(218): Stripe\Exception\InvalidRequestException::factory('Invalid integer: ', 400, '{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_37VFh34FKde3BD?t=1704736668",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_integer', 'line_items[0][price_data][unit_amount]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(180): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_37VFh34FKde3BD?t=1704736668",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(564): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_37VFh34FKde3BD?t=1704736668",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(128): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: ",
+    "param": "line_items[0][price_data][unit_amount]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_37VFh34FKde3BD?t=1704736668",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(145): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [...], [...])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 8 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 9 APPPATH\Controllers\Stripe.php(39): Stripe\Service\Checkout\SessionService->create([...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:58:55 --> Array to string conversion
+in APPPATH\Controllers\Stripe.php on line 39.
+ 1 APPPATH\Controllers\Stripe.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\public_html_CarreraDeLasHortensiasBueno\\app\\Controllers\\Stripe.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:59:32 --> Array to string conversion
+in APPPATH\Controllers\Stripe.php on line 39.
+ 1 APPPATH\Controllers\Stripe.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\public_html_CarreraDeLasHortensiasBueno\\app\\Controllers\\Stripe.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-08 12:49:42 --> mysqli_sql_exception: Column 'Total' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(130): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-08 12:49:42 --> Column 'Total' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pasarelapagos` (`Descripcion`, `Total`, `Nombre`, `TipoPago`, `IdPago`, `Email`, `Fecha`, `IdCliente`, `IdEvento`, `Status`, `IdOrden`, `paypalLink`, `UserAgent`, `IP`) VALUES (:Descripcion:, :Total:, :Nombre:, :TipoPago:, :IdPago:, :Email:, :Fecha:, :IdCliente:, :IdEvento:, :Status:, :IdOrden:, :paypalLink:, :UserAgent:, :IP:)', [...], false)
+ 2 APPPATH\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(130): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-08 12:49:48 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(130): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-08 12:49:48 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(61): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(130): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-08 12:53:03 --> mysqli_sql_exception: Column 'Total' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(130): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-08 12:53:03 --> Column 'Total' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pasarelapagos` (`Descripcion`, `Total`, `Nombre`, `TipoPago`, `IdPago`, `Email`, `Fecha`, `IdCliente`, `IdEvento`, `Status`, `IdOrden`, `paypalLink`, `UserAgent`, `IP`) VALUES (:Descripcion:, :Total:, :Nombre:, :TipoPago:, :IdPago:, :Email:, :Fecha:, :IdCliente:, :IdEvento:, :Status:, :IdOrden:, :paypalLink:, :UserAgent:, :IP:)', [...], false)
+ 2 APPPATH\Models\participantes.php(64): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(130): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-08 12:53:08 --> mysqli_sql_exception: Column 'IdSocio' cannot be null in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `so...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(130): App\Models\Participantes->PagoEvento(Array, Array)
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-08 12:53:08 --> Column 'IdSocio' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `socioseventos` (`IdSocio`, `IdEvento`) VALUES (:IdSocio:, :IdEvento:)', [...], false)
+ 2 APPPATH\Models\participantes.php(61): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(130): App\Models\Participantes->PagoEvento([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->PagoEvento()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-08 15:16:15 --> mysqli_sql_exception: Table 'amifit.socioeventos' doesn't exist in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-08 15:16:15 --> Table 'amifit.socioeventos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `socioeventos`', null, false)
+ 2 APPPATH\Models\participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+ 3 APPPATH\Controllers\Home.php(186): App\Models\Participantes->cantidadParticipantes()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 15:32:03 --> No API key provided. Set your API key when constructing the StripeClient instance, or provide it on a per-request basis using the `api_key` key in the $opts argument.
+in FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php on line 236.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(144): Stripe\BaseStripeClient->apiKeyForRequest(Object(Stripe\Util\RequestOptions))
+ 2 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 3 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 4 APPPATH\Controllers\Stripe.php(43): Stripe\Service\Checkout\SessionService->create([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 15:32:11 --> No API key provided. Set your API key when constructing the StripeClient instance, or provide it on a per-request basis using the `api_key` key in the $opts argument.
+in FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php on line 236.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\BaseStripeClient.php(144): Stripe\BaseStripeClient->apiKeyForRequest(Object(Stripe\Util\RequestOptions))
+ 2 FCPATH\vendor\stripe\stripe-php\lib\Service\AbstractService.php(75): Stripe\BaseStripeClient->request('post', '/v1/checkout/sessions', [...], Object(Stripe\Util\RequestOptions))
+ 3 FCPATH\vendor\stripe\stripe-php\lib\Service\Checkout\SessionService.php(55): Stripe\Service\AbstractService->request('post', '/v1/checkout/sessions', [...], null)
+ 4 APPPATH\Controllers\Stripe.php(43): Stripe\Service\Checkout\SessionService->create([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Stripe->createSession()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stripe))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

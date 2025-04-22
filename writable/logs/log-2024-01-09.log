@@ -1,0 +1,162 @@
+ERROR - 2024-01-09 10:58:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'amifit', NULL, '', 0)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-09 10:58:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `socioseventos`', null, false)
+ 3 APPPATH/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+ 4 APPPATH/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 10:58:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'amifit', NULL, '', 0)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-09 10:58:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `socioseventos`', null, false)
+ 3 APPPATH/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+ 4 APPPATH/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 10:58:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'amifit', NULL, '', 0)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-09 10:58:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `socioseventos`', null, false)
+ 3 APPPATH/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+ 4 APPPATH/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 10:58:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'amifit', NULL, '', 0)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u269039761/domains/carreradelashortensias.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+#4 /home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+#5 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+#6 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u269039761/domains/carreradelashortensias.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u269039761/domains/carreradelashortensias.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-09 10:58:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `socioseventos`', null, false)
+ 3 APPPATH/Models/participantes.php(104): CodeIgniter\Database\BaseBuilder->countAll()
+ 4 APPPATH/Controllers/Home.php(186): App\Models\Participantes->cantidadParticipantes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->cantidadParticipantes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 15:51:08 --> Undefined variable: id
+in APPPATH/Controllers/Home.php on line 259.
+ 1 APPPATH/Controllers/Home.php(259): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php', 259, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->mandarCorreo()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 15:56:23 --> Undefined variable: keyFob
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keyFob', '/home/u269039761/domains/carreradelashortensias.com/public_html/app/Controllers/Home.php', 239, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->mandarCorreo()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,533 @@
+ERROR - 2023-11-30 22:09:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(50): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:09:59 --> Call to a member function getResult() on bool
+in APPPATH\Models\codigoPostal.php on line 14.
+ 1 APPPATH\Controllers\Home.php(50): App\Models\codigoPostal->colonias(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:10:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(50): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:10:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(50): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:16:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(50): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:16:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(50): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:16:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:16:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:16:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:16:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:16:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(13): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:18:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:18:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(14): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:19:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(15): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:19:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(15): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 22:20:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1 in D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cp.colon...', 0)
+#1 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cp.colon...')
+#2 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cp.colon...')
+#3 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Models\codigoPostal.php(15): CodeIgniter\Database\BaseConnection->query('SELECT cp.colon...')
+#4 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\app\Controllers\Home.php(51): App\Models\codigoPostal->colonias(NULL)
+#5 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(942): App\Controllers\Home->cp()
+#6 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Programas Instalados\XAMP-php-7-4\htdocs\public_html_CarreraDeLasHortensiasBueno\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-30 22:20:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estados.estado = 'Chiapas'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\codigoPostal.php(15): CodeIgniter\Database\BaseConnection->query('SELECT cp.colonia FROM cp inner join municipios on cp.idmunicipio = municipios.idmunicipio inner join estados on estados.idestado = municipios.idestado WHERE cp.cp =  and estados.estado = \'Chiapas\'')
+ 2 APPPATH\Controllers\Home.php(51): App\Models\codigoPostal->colonias(null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->cp()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 23:29:21 --> Call to undefined method App\Models\Participantes::buscarLlave
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Model->__call('buscarLlave', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarLlave()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 23:29:26 --> Call to undefined method App\Models\Participantes::buscarLlave
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Model->__call('buscarLlave', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->consultarLlave()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
