@@ -49,4 +49,12 @@ class CuponesController extends BaseController
         $this->cuponModel->update($id, ['Status' => 0]);
         return $this->response->setJSON(['status' => 'ok']);
     }
+
+    /* PATCH /cupones/activate/{id} */
+    public function activate($id = null)
+    {
+        $this->cuponModel->update($id, ['Status' => 1]);
+        return $this->response->setJSON(['status' => 'ok']);
+    }
+
 }
