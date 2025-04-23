@@ -42,8 +42,9 @@
                     <span class="fs-5">Dashboard</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-auto">
+                    
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white"><i class="fa-solid fa-house me-2"></i>Inicio</a>
+                        <a href="<?= base_url('dashboard'); ?>" class="nav-link text-white"><i class="fa-solid fa-house me-2"></i>Inicio</a>
                     </li>
                     <li>
                         <a class="nav-link text-white d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#usuariosMenu" role="button" aria-expanded="false">
@@ -55,6 +56,12 @@
                             <li><a href="#" class="nav-link text-white ps-4">Agregar nuevo</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('cupones'); ?>" class="nav-link text-white">
+                            <i class="fa-solid fa-ticket me-2"></i>Cupones
+                        </a>
+                    </li>
+
                 </ul>
                 <hr>
                 <div class="dropdown mt-auto">
@@ -89,8 +96,7 @@
             </nav>
 
             <div class="content">
-                <h2>Bienvenido al panel</h2>
-                <p>Selecciona una opción del menú para comenzar.</p>
+                <?= $this->renderSection('content') ?>
             </div>
         </div>
     </div>
@@ -146,7 +152,7 @@
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonText: 'Cerrar Sesión',
-                    cancelButtonText: 'Cancelar', 
+                    cancelButtonText: 'Cancelar',
                     reverseButtons: true
                 }).then((result) => {
                     if (result.isConfirmed) {
@@ -156,6 +162,9 @@
             });
         });
     </script>
+
+    <?= $this->renderSection('scripts') ?>
+
 </body>
 
 </html>
