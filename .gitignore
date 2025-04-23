@@ -1,2 +1,5 @@
 .vscode/
 debugbar_*.json
+writable/debugbar/*.json
+writable/logs/*.log
+writable/session/ci_session*
