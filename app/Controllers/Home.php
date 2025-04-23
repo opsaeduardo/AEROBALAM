@@ -37,6 +37,12 @@ class Home extends BaseController
         // return view('index');
     }
 
+    public function dashboard(): string
+    {
+        // return view('dashboard/dashboard');
+        return view('dashboard/home');
+    }
+
     /* METODO QUE TRAE LAS FECHAS */
     public function consultarFecha()
     {
@@ -141,7 +147,7 @@ class Home extends BaseController
         if (!empty($postData)) {
             // 1. Cancelar las reservas
             foreach ($postData as $key => $item) {
-                
+
                 if (is_numeric($key) && is_array($item) && isset($item['reservaId'])) {
                     $dataUpdate = ['Estado' => 'Cancelado'];
                     $modelo->cancelarReserva($item['reservaId'], $dataUpdate);

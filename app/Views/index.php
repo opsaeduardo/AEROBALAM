@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo base_url() ?>public/css/style.css?=1.5">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://unpkg.com/qrious@4.0.2/dist/qrious.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +55,7 @@
                                     <!-- <div class="col-md-4 d-flex flex-column border-dark rounded-3 p-1 bg-light shadow-lg position-relative">
                                         <div class="border-top border-dark border-2 dotted"></div>
                                         <div class="border-bottom border-dark border-2 dotted mt-auto"></div>
-    
+
                                         <small class="fw-semibold text-secondary"><i class="bi bi-person-fill me-1"></i><span id="ticket-nombre" class="text-dark">Nombre Completo del usuario</span></small>
                                         <small class="text-muted"><i class="bi bi-calendar-fill me-1"></i><span id="ticket-edad">22 años</span></small>
                                         <small class="text-truncate text-muted"><i class="bi bi-envelope-fill me-1"></i><span id="ticket-correo">correo@correo.com</span></small>
@@ -412,7 +413,7 @@
                         let html = `
                         <div class="d-flex justify-content-center align-items-center flex-column" style="font-family: Roboto, Helvetica, Arial, sans-serif; color:#343a40;">
                             <div class="mb-4">
-                                
+
                             </div>
 
                             <div class="shadow-lg mb-5 bg-white rounded-4 border border-light-subtle" style="min-width:300px; max-width:1200px; width:100%;">
@@ -861,7 +862,7 @@
                                         console.log(registros);
                                         registros.forEach(function(registro) {
 
-                                            /* 
+                                            /*
                                          <div class="col-md-4 d-flex flex-column border-dark rounded-3 p-1 bg-light shadow-lg position-relative">
                                     <div class="border-top border-dark border-2 dotted"></div>
                                     <div class="border-bottom border-dark border-2 dotted mt-auto"></div>
