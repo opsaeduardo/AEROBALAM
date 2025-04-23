@@ -1,7 +1,0 @@
-CRITICAL - 2024-01-23 08:13:06 --> Call to undefined function App\Controllers\json_endoe()
-in APPPATH/Controllers/Home.php on line 428.
- 1 APPPATH/Controllers/Webhook.php(181): App\Controllers\Home->actualizarPago([...], 'pi_3OaR0QBX9sCWY09W1z3w8e9m')
- 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Webhook->index()
- 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Webhook))
- 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

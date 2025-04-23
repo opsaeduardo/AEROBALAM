@@ -1,8 +1,0 @@
-CRITICAL - 2024-08-09 15:54:09 --> Undefined index: Estado
-in APPPATH\Models\participantes.php on line 78.
- 1 APPPATH\Models\participantes.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Estado', 'D:\\Programas Instalados\\XAMP-php-7-4\\htdocs\\HortensiasActualizado\\app\\Models\\participantes.php', 78, [...])
- 2 APPPATH\Controllers\Home.php(136): App\Models\Participantes->validarCupones('oferta2x1')
- 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->agregarParticipante()
- 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
