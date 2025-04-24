@@ -13,48 +13,102 @@ class CuponesController extends BaseController
         helper(['form']);
     }
 
-    /* GET /cupones */
     public function index()
     {
-        return view('dashboard/cupones/index');
+        try {
+            return view('dashboard/cupones/index');
+        } catch (\Exception $e) {
+            return $this->response
+                ->setStatusCode(500)
+                ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+        }
     }
 
-    /* GET /cupones/list (AJAX DataTable) */
     public function list()
     {
-        return $this->response->setJSON(
-            ['data' => $this->cuponModel->findAll()]
-        );
+        try {
+            $data = $this->cuponModel->findAll();
+            return $this->response->setJSON(['data' => $data]);
+        } catch (\Exception $e) {
+            return $this->response
+                ->setStatusCode(500)
+                ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+        }
     }
 
-    /* POST /cupones/store */
     public function store()
     {
-        $data = $this->request->getPost();
-        // validar aquí o delegar a un Service
-        $this->cuponModel->save($data);
-        return $this->response->setJSON(['status' => 'ok']);
+        try {
+            $data = $this->request->getPost();
+            if (! $this->validate(['Nombre' => 'required', 'Descuento' => 'required|numeric'])) {
+                return $this->response
+                    ->setStatusCode(422)
+                    ->setJSON(['status' => 'fail', 'errors' => $this->validator->getErrors()]);
+            }
+            if (! $this->cuponModel->save($data)) {
+                return $this->response
+                    ->setStatusCode(400)
+                    ->setJSON(['status' => 'fail', 'errors' => $this->cuponModel->errors()]);
+            }
+            return $this->response->setJSON(['status' => 'ok']);
+        } catch (\Exception $e) {
+            return $this->response
+                ->setStatusCode(500)
+                ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+        }
     }
 
-    /* PUT /cupones/update/{id} */
     public function update($id = null)
     {
-        $this->cuponModel->update($id, $this->request->getRawInput());
-        return $this->response->setJSON(['status' => 'ok']);
+        try {
+            $input = $this->request->getRawInput();
+            if (! $this->validate(['Nombre' => 'required', 'Descuento' => 'required|numeric'])) {
+                return $this->response
+                    ->setStatusCode(422)
+                    ->setJSON(['status' => 'fail', 'errors' => $this->validator->getErrors()]);
+            }
+            if (! $this->cuponModel->update($id, $input)) {
+                return $this->response
+                    ->setStatusCode(400)
+                    ->setJSON(['status' => 'fail', 'errors' => $this->cuponModel->errors()]);
+            }
+            return $this->response->setJSON(['status' => 'ok']);
+        } catch (\Exception $e) {
+            return $this->response
+                ->setStatusCode(500)
+                ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+        }
     }
 
-    /* PATCH /cupones/deactivate/{id} */
     public function deactivate($id = null)
     {
-        $this->cuponModel->update($id, ['Status' => 0]);
-        return $this->response->setJSON(['status' => 'ok']);
+        try {
+            if (! $this->cuponModel->update($id, ['Status' => 0])) {
+                return $this->response
+                    ->setStatusCode(400)
+                    ->setJSON(['status' => 'fail', 'errors' => $this->cuponModel->errors()]);
+            }
+            return $this->response->setJSON(['status' => 'ok']);
+        } catch (\Exception $e) {
+            return $this->response
+                ->setStatusCode(500)
+                ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+        }
     }
 
-    /* PATCH /cupones/activate/{id} */
     public function activate($id = null)
     {
-        $this->cuponModel->update($id, ['Status' => 1]);
-        return $this->response->setJSON(['status' => 'ok']);
+        try {
+            if (! $this->cuponModel->update($id, ['Status' => 1])) {
+                return $this->response
+                    ->setStatusCode(400)
+                    ->setJSON(['status' => 'fail', 'errors' => $this->cuponModel->errors()]);
+            }
+            return $this->response->setJSON(['status' => 'ok']);
+        } catch (\Exception $e) {
+            return $this->response
+                ->setStatusCode(500)
+                ->setJSON(['status' => 'error', 'message' => $e->getMessage()]);
+        }
     }
-
 }
