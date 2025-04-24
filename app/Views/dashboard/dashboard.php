@@ -13,6 +13,11 @@
     <!-- SweetAlert2 -->
     <script src="<?php echo base_url(); ?>/public/js/sweetalert/sweetalert2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- notyf alerts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+
     <!-- toastr -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/public/css/toastr/toastr.min.css" />
     <!-- Custom CSS -->
@@ -42,7 +47,7 @@
                     <span class="fs-5">Dashboard</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-auto">
-                    
+
                     <li class="nav-item">
                         <a href="<?= base_url('dashboard'); ?>" class="nav-link text-white"><i class="fa-solid fa-house me-2"></i>Inicio</a>
                     </li>
