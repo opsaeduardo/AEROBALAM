@@ -24,6 +24,7 @@ $routes->group('', ['filter' => 'auth'], static function ($routes) {
   $routes->get('cupones',          'CuponesController::index');
   $routes->get('cupones/list',     'CuponesController::list');
   $routes->post('cupones/store',   'CuponesController::store');
+  $routes->patch('cupones/activate/(:num)', 'CuponesController::activate/$1');
   $routes->put ('cupones/(:num)',   'CuponesController::update/$1');
   $routes->patch('cupones/(:num)',  'CuponesController::deactivate/$1');
 
