@@ -1,26 +1,49 @@
 // public/js/cupones.js
 $(function () {
   const base_url = $('#ruta').val();
+
+
+
   const notyf = new Notyf({
-    duration: 3000,
+    duration: 3500,
+    ripple: false,
+    dismissible: true,
     position: { x: 'right', y: 'top' },
     types: [
       {
-        type: 'warning',
-        background: 'orange',
+        type: 'success',
+        background: 'linear-gradient(135deg, #A8E063 0%, #56AB2F 100%)',
         icon: {
-          className: 'material-icons',
+          className: 'fa-solid fa-check-circle',
           tagName: 'i',
-          text: 'warning'
+          text: ''
+        }
+      },
+      {
+        type: 'error',
+        background: 'linear-gradient(135deg, #FF9966 0%, #FF5E62 100%)',
+        icon: {
+          className: 'fa-solid fa-times-circle',
+          tagName: 'i',
+          text: ''
         }
       },
       {
         type: 'info',
-        background: 'blue',
+        background: 'linear-gradient(135deg, #89F7FE 0%, #66A6FF 100%)',
         icon: {
-          className: 'material-icons',
+          className: 'fa-solid fa-info-circle',
           tagName: 'i',
-          text: 'info'
+          text: ''
+        }
+      },
+      {
+        type: 'warning',
+        background: 'linear-gradient(135deg, #FBD786 0%, #f7797d 100%)',
+        icon: {
+          className: 'fa-solid fa-exclamation-circle',
+          tagName: 'i',
+          text: ''
         }
       }
     ]
@@ -142,21 +165,32 @@ $(function () {
   $('#tblCupones').on('click', '.btn-deact', function () {
     const id = $(this).data('id');
     Swal.fire({
-      title: '¿Desactivar cupón?',
-      icon: 'warning',
+      title: '<strong>¿Desactivar cupón?</strong>',
+      html: 'Esta acción desactivará el cupón de forma permanente.',
+      icon: 'question',
       showCancelButton: true,
-      confirmButtonText: 'Sí, desactivar',
-      cancelButtonText: 'Cancelar'
-    }).then(r => {
-      if (r.isConfirmed) {
+      confirmButtonText: '<i class="fa-solid fa-check me-1"></i> Desactivar',
+      cancelButtonText: '<i class="fa-solid fa-times me-1"></i> Cancelar',
+      customClass: {
+        popup: 'border-0 shadow p-4 rounded-4',
+        title: 'fw-bold text-dark',
+        confirmButton: 'btn btn-primary me-2',
+        cancelButton: 'btn btn-outline-secondary'
+      },
+      buttonsStyling: false,
+      background: '#ffffff'
+    }).then((result) => {
+      if (result.isConfirmed) {
         $.ajax({
           url: base_url + 'cupones/' + id,
           type: 'PATCH',
           success: () => {
             tabla.ajax.reload(null, false);
-            notyf.open({ type: 'info', message: 'Cupón desactivado' });
+            notyf.success('Operación exitosa: cupón desactivado');
           }
         });
+      } else if (result.dismiss === Swal.DismissReason.cancel) {
+        notyf.open({ type: 'warning', message: 'Operación cancelada' });
       }
     });
   });
