@@ -8,19 +8,14 @@ class ProfileController extends BaseController
 {
     private UserModel $user;
 
-    public function __construct()
-    {
-        $this->user = new UserModel();
-    }
+    public function __construct() { $this->user = new UserModel(); }
 
     public function info()
     {
-        if (! session('login')) {
-            return $this->response->setStatusCode(401)->setJSON(['status' => 'error']);
-        }
+        if (!session('login')) return $this->response->setStatusCode(401)->setJSON(['status' => 'error']);
 
         $row = $this->user
-            ->select('Nombre AS nombre, Usuario AS usuario, Correo AS correo, Telefono AS telefono, Rol AS rol')
+            ->select('Id AS id, Nombre AS nombre, Usuario AS usuario, Correo AS correo, Telefono AS telefono, Edad AS edad, Rol AS rol, Status AS status')
             ->where('Usuario', session('Usuario'))
             ->first();
 
@@ -29,30 +24,14 @@ class ProfileController extends BaseController
 
     public function update()
     {
-        if (! session('login')) {
-            return $this->response->setStatusCode(401)->setJSON(['status' => 'error']);
-        }
+        if (!session('login')) return $this->response->setStatusCode(401)->setJSON(['status' => 'error']);
 
-        $payload = $this->request->getJSON(true);
+        $p = $this->request->getJSON(true);
+        if (!$p || empty($p['nombre']) || empty($p['correo'])) return $this->response->setStatusCode(422)->setJSON(['status' => 'error']);
 
-        if (!$payload || empty($payload['nombre']) || empty($payload['correo'])) {
-            return $this->response->setStatusCode(422)->setJSON(['status' => 'error']);
-        }
+        $this->user->update(session('IdUsuario'), ['Nombre' => $p['nombre'], 'Correo' => $p['correo'], 'Telefono' => $p['telefono'], 'Edad' => $p['edad']]);
 
-        $this->user->update(
-            session('IdUsuario'),
-            [
-                'Nombre'   => $payload['nombre'],
-                'Correo'   => $payload['correo'],
-                'Telefono' => $payload['telefono']
-            ]
-        );
-
-        session()->set([
-            'NombreCompleto' => $payload['nombre'],
-            'Correo'         => $payload['correo'],
-            'Telefono'       => $payload['telefono']
-        ]);
+        session()->set(['NombreCompleto' => $p['nombre'], 'Correo' => $p['correo'], 'Telefono' => $p['telefono']]);
 
         return $this->response->setJSON(['status' => 'success']);
     }
