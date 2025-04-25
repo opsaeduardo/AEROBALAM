@@ -61,11 +61,6 @@
                             <i class="fa-solid fa-ticket me-2"></i>Cupones
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="<?= base_url('destinos'); ?>" class="nav-link text-white">
-                            <i class="fa-solid fa-map-location-dot me-2"></i>Destinos
-                        </a>
-                    </li>
 
                 </ul>
                 <hr>
