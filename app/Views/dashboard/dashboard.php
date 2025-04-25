@@ -42,7 +42,7 @@
                     <span class="fs-5">Dashboard</span>
                 </a>
                 <ul class="nav nav-pills flex-column mb-auto">
-                    
+
                     <li class="nav-item">
                         <a href="<?= base_url('dashboard'); ?>" class="nav-link text-white"><i class="fa-solid fa-house me-2"></i>Inicio</a>
                     </li>
@@ -70,7 +70,7 @@
                         <strong>Admin</strong>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="userDropdown">
-                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li><button id="btnPerfil" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#perfilModal">Perfil</button></li>
                         <li><a class="dropdown-item" href="#">Configuración</a></li>
                         <li>
                             <hr class="dropdown-divider">
@@ -164,6 +164,8 @@
     </script>
 
     <?= $this->renderSection('scripts') ?>
+    <?= view('dashboard/perfil/modal_profile') ?>
+    <script src="<?= base_url('public/js/perfil.js') ?>"></script>
 
 </body>
 

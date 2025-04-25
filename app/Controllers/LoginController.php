@@ -27,9 +27,9 @@ class LoginController extends BaseController
             $session = session();
 
             $sessionData = [
+                'IdUsuario'      => $data[0]['Id'],
                 'NombreCompleto' => $data[0]['Nombre'],
                 'Rol' => $data[0]['Rol'],
-                // 'IdUsuario' => $data[0]['Id'],
                 'Usuario' => $data[0]['Usuario'],
                 'Correo' => $data[0]['Correo'],
                 'Telefono' => $data[0]['Telefono'],
