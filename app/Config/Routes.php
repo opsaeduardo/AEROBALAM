@@ -55,4 +55,9 @@ $routes->group('', ['filter' => 'auth'], static function ($routes) {
   $routes->patch('usuarios/(:num)', 'UsuariosController::deactivate/$1');
   $routes->patch('usuarios/activate/(:num)', 'UsuariosController::activate/$1');
 
+  /* ───· CALENDARIO DE VUELOS ·─── */
+  $routes->get ('calendar',                 'CalendarController::index');
+  $routes->get ('calendar/events',          'CalendarController::events');
+  $routes->get ('calendar/detail/(:num)',   'CalendarController::detail/$1');
+
 });

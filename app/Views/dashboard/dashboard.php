@@ -71,6 +71,11 @@
                             <i class="fa-solid fa-users me-2"></i>Usuarios
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('calendar'); ?>" class="nav-link text-white">
+                            <i class="fa-solid fa-calendar-days me-2"></i>Calendario
+                        </a>
+                    </li>
 
                 </ul>
                 <hr>
