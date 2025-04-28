@@ -66,6 +66,11 @@
                             <i class="fa-solid fa-map-location-dot me-2"></i>Destinos
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('usuarios'); ?>" class="nav-link text-white">
+                            <i class="fa-solid fa-users me-2"></i>Usuarios
+                        </a>
+                    </li>
 
                 </ul>
                 <hr>
