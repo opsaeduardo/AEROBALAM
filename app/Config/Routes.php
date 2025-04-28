@@ -47,5 +47,12 @@ $routes->group('', ['filter' => 'auth'], static function ($routes) {
   $routes->patch ('destinos/(:num)',          'DestinosController::deactivate/$1');
   $routes->patch ('destinos/activate/(:num)', 'DestinosController::activate/$1');
 
+  /* ───· USUARIOS ·─── */
+  $routes->get('usuarios',          'UsuariosController::index');
+  $routes->get('usuarios/list',     'UsuariosController::list');
+  $routes->post('usuarios/store',   'UsuariosController::store');
+  $routes->put ('usuarios/(:num)',  'UsuariosController::update/$1');
+  $routes->patch('usuarios/(:num)', 'UsuariosController::deactivate/$1');
+  $routes->patch('usuarios/activate/(:num)', 'UsuariosController::activate/$1');
 
 });
